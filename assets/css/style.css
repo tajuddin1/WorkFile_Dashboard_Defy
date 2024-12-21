@@ -198,4 +198,15 @@ hr {
     }
 }
 
-@media screen and (max-width:575px) {}
+@media screen and (max-width:575px) {
+    body{
+        font-size: 14px ;
+    }
+    .main {
+        padding-left:  20px;
+        padding: 15px 20px;
+    }
+    .menu-items {
+        font-size: 14px;
+    }
+}
