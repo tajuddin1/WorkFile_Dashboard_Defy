@@ -49,9 +49,11 @@ h6 {
     padding: 40px 25px;
     height: 100vh;
 }
-.sidebar-inner{
+
+.sidebar-inner {
     overflow: scroll;
 }
+
 .logo-img {
     max-width: 120px;
 }
@@ -123,7 +125,7 @@ hr {
 
 .btn-outline-theme {
     position: relative;
-    padding: 10px 21px;
+    padding: 10px 20px;
     background: #fff;
     border-radius: 10px;
     min-height: 50px;
@@ -188,7 +190,7 @@ hr {
 
 @media screen and (max-width:991px) {
     .main {
-        padding-left:  25px;
+        padding-left: 25px;
     }
 }
 
@@ -199,14 +201,29 @@ hr {
 }
 
 @media screen and (max-width:575px) {
-    body{
-        font-size: 14px ;
+
+    body,
+    .sub-title-md,
+    .card-grid p,
+    .menu-items {
+        font-size: 18px;
+        font-weight: 300;
     }
+    .label-btn p{
+        font-size: 14px;
+    }
+
     .main {
-        padding-left:  20px;
+        padding-left: 20px;
         padding: 15px 20px;
     }
-    .menu-items {
-        font-size: 14px;
+    .h6, h6 {
+        font-size: 22px;
+    }
+    .sidebar {
+        max-width: 280px;
+    }
+    .btn-outline-theme.theme-sm {
+        font-size: 16px;
     }
 }
